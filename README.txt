@@ -1,6 +1,6 @@
-<h1>CASA</h1>
+CASA
 
 Gestions des jobs et affectations.
 
-<h3>Info de déploiement</h3>
+Info de déploiement
 nil.
