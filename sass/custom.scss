@@ -1,0 +1,103 @@
+$grey : #606060;
+@mixin affecation($color) {
+	background: $color;
+	border-radius: 5px;
+	border: 1px solid darken($color, 20%);
+	color: white;
+}
+.top{
+	.date{
+		background: $grey;
+		height: 50px;
+		line-height: 50px;
+		color: white;
+		border-radius: 5px;
+		border: 1px solid darken($grey, 20%);
+
+		input[type="text"] {
+			height: 30px;
+			border-radius: 5px;
+			margin-top: 10px;
+		}
+	}
+	.one.column{
+		height: 50px;
+	}
+	.ajouter{
+		margin-top: 10px;
+	}
+
+	.ajouter_affectation {
+		margin-top: 15px;
+	}
+
+	.change_date {
+		margin-right: 20px;
+	}
+	margin-bottom: 50px;
+}
+
+.distrib{
+	@include affecation($grey);
+	padding: 20px 10px 0px 10px;
+	display: none;
+	select[name="job"]{
+		margin-bottom: 20px;
+	}
+
+	select.choisi, select.dispo{
+		height: 100px;
+	}
+
+	div.btn_gestion{
+		margin-top: 30px;
+		a{
+			margin-left: 15px;
+
+			&:last-child{
+				margin-top: 10px;
+			}
+		}
+	}
+
+	.Ajouter, .Modifier, .cancel{
+		margin-top: 20px;
+	}
+	margin-bottom: 50px;
+}
+
+.affectation{
+	.top_affectation{
+		@include affecation(#dcdcdc);
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		height: 50px;
+
+		h4{
+			color: #474747;
+			margin: 0;
+			line-height: 50px;
+			padding-left: 20px;
+
+			.imprimer{
+				margin-top: 20px;
+
+				&:hover{color: white;}
+			}
+		}
+	}
+
+	.content_affectation{
+		@include affecation($grey);
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		padding: 20px 10px 0px 10px;
+		line-height: 50px;
+
+		.bold{
+			font-weight: bold;
+		}
+	}
+}
+
+.label{margin-right: 15px;}

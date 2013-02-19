@@ -1,0 +1,116 @@
+/* line 8, ../sass/custom.scss */
+.top {
+  margin-bottom: 50px;
+}
+/* line 9, ../sass/custom.scss */
+.top .date {
+  background: #606060;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #2d2d2d;
+}
+/* line 17, ../sass/custom.scss */
+.top .date input[type="text"] {
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+/* line 23, ../sass/custom.scss */
+.top .one.column {
+  height: 50px;
+}
+/* line 26, ../sass/custom.scss */
+.top .ajouter {
+  margin-top: 10px;
+}
+/* line 30, ../sass/custom.scss */
+.top .ajouter_affectation {
+  margin-top: 15px;
+}
+/* line 34, ../sass/custom.scss */
+.top .change_date {
+  margin-right: 20px;
+}
+
+/* line 40, ../sass/custom.scss */
+.distrib {
+  background: #606060;
+  border-radius: 5px;
+  border: 1px solid #2d2d2d;
+  color: white;
+  padding: 20px 10px 0px 10px;
+  display: none;
+  margin-bottom: 50px;
+}
+/* line 44, ../sass/custom.scss */
+.distrib select[name="job"] {
+  margin-bottom: 20px;
+}
+/* line 48, ../sass/custom.scss */
+.distrib select.choisi, .distrib select.dispo {
+  height: 100px;
+}
+/* line 52, ../sass/custom.scss */
+.distrib div.btn_gestion {
+  margin-top: 30px;
+}
+/* line 54, ../sass/custom.scss */
+.distrib div.btn_gestion a {
+  margin-left: 15px;
+}
+/* line 57, ../sass/custom.scss */
+.distrib div.btn_gestion a:last-child {
+  margin-top: 10px;
+}
+/* line 63, ../sass/custom.scss */
+.distrib .Ajouter, .distrib .Modifier, .distrib .cancel {
+  margin-top: 20px;
+}
+
+/* line 70, ../sass/custom.scss */
+.affectation .top_affectation {
+  background: gainsboro;
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+  color: white;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 50px;
+}
+/* line 76, ../sass/custom.scss */
+.affectation .top_affectation h4 {
+  color: #474747;
+  margin: 0;
+  line-height: 50px;
+  padding-left: 20px;
+}
+/* line 82, ../sass/custom.scss */
+.affectation .top_affectation h4 .imprimer {
+  margin-top: 20px;
+}
+/* line 85, ../sass/custom.scss */
+.affectation .top_affectation h4 .imprimer:hover {
+  color: white;
+}
+/* line 90, ../sass/custom.scss */
+.affectation .content_affectation {
+  background: #606060;
+  border-radius: 5px;
+  border: 1px solid #2d2d2d;
+  color: white;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 20px 10px 0px 10px;
+  line-height: 50px;
+}
+/* line 97, ../sass/custom.scss */
+.affectation .content_affectation .bold {
+  font-weight: bold;
+}
+
+/* line 103, ../sass/custom.scss */
+.label {
+  margin-right: 15px;
+}
